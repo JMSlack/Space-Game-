@@ -25,7 +25,7 @@ namespace Project
             int age = 0;
 
             Console.SetWindowSize(150, 40);
-            Animation.Animate("D:\\Documents\\MSSA\\C#\\PeaceAmongWorlds\\menu.txt");
+            Animation.Animate("..\\..\\..\\..\\..\\Images\\menu.txt");
             Console.ReadKey();
             do
             {
@@ -44,7 +44,7 @@ namespace Project
             Console.Clear();
             Console.WriteLine("You are Dead.\n");
             
-            Animation.Animate("D:\\Documents\\MSSA\\C#\\PeaceAmongWorlds\\shockedmorty.txt");
+            Animation.Animate("..\\..\\..\\..\\..\\shockedmorty.txt");
 
             Console.ReadKey();
 
